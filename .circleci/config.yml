@@ -14,7 +14,6 @@ jobs:
       # install node and checkout code
       - node/install:
       - checkout
-        node-version: "14.15"
         aws-cli/setup
       # Use root level package.json to install dependencies in the frontend app
       - run:
@@ -42,13 +41,12 @@ jobs:
           name: API Build
           command: |
             npm run api:build
-  # deploy step will run only after manual approval
+      # deploy step will run only after manual approval
       - run:
         name: Deploy App
         command: |
           npm run frontend:deploy
       - run:
-
         name: Deploy Api
         command: |
           npm run api:deploy
