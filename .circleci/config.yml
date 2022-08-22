@@ -44,8 +44,7 @@ jobs:
           name: Deploy api
           command: |
             npm run api:deploy
-workflows: 
-  udagram: 
+workflows:  
     jobs: 
       - build
       - 
