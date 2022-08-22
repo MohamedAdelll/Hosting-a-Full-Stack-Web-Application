@@ -44,6 +44,14 @@ jobs:
           name: Deploy api
           command: |
             npm run api:deploy
-Branches:
-  only: 
-     -  main
+workflows: 
+  udagram: 
+    jobs: 
+      - build
+      - 
+        hold: 
+          filters: 
+            branches: 
+              only: 
+                - master
+
