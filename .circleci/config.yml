@@ -97,3 +97,7 @@ jobs:
           name: Deploy App
           command: |
             npm run frontend:deploy
+      - run:
+          name: Deploy api
+          command: |
+            npm run api:deploy
