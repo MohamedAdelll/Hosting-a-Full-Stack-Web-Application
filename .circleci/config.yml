@@ -46,7 +46,8 @@ jobs:
             npm run api:deploy
 workflows:
     jobs:
-      - build:
+      - build
+      - hold:
           filters:
             branches:
               only:
@@ -54,3 +55,6 @@ workflows:
           type: approval
           requires:
             - build
+      - deploy:
+          requires:
+            - hold
