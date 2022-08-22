@@ -44,17 +44,18 @@ jobs:
           name: Deploy api
           command: |
             npm run api:deploy
-workflows:
-    jobs:
-      - build
-      - hold:
-          filters:
-            branches:
-              only:
-                - master
-          type: approval
-          requires:
-            - build
-      - deploy:
-          requires:
-            - hold
+workflows: 
+  jobs: 
+    - 
+      build: 
+        filters: 
+          branches: 
+            only: 
+              - master
+        requires: 
+          - build
+        type: approval
+    - 
+      deploy: 
+        requires: 
+          - hold
