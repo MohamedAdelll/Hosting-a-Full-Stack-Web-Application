@@ -44,6 +44,11 @@ jobs:
           name: Deploy api
           command: |
             npm run api:deploy
-Branches:
-  only: 
-     -  main
+workflows:
+    build:
+      jobs:
+        - build:
+            filters:
+              branches:
+                only:
+                  - main
