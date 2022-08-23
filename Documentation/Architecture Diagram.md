@@ -10,7 +10,7 @@ AWS RDS PostgreSQL Database info Sequelize:
 
 - postgres://postgres:postgres@[database-1.cudxhqbqgcj1.us-east-1.rds.amazonaws.com](database-1.cudxhqbqgcj1.us-east-1.rds.amazonaws.com):5432/postgres
 
-  ![rds](../screenshots/rds.PNG)
+  ![rds](../screenshots/RDS.png)
 
 ---
 
