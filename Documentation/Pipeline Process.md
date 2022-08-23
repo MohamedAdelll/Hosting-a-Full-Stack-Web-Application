@@ -26,9 +26,9 @@ First step is to create a `config.yml` in the project’s root directory and Cir
 
 ### Environment Variables
 
-![env](../screenshots/Environment_Variables.PNG)
+![env](screenshots/Environment_Variables.PNG)
 
 ### build in CircleCi
 
-![circleci](../screenshots/CircleCi_Success.PNG)
-![circleci](../screenshots/Success_on_main.PNG)
+![circleci](screenshots/CircleCi_Success.PNG)
+![circleci](screenshots/Success_on_main.PNG)
