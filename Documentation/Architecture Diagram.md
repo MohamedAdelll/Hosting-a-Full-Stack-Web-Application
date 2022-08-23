@@ -18,7 +18,7 @@ AWS RDS PostgreSQL Database info Sequelize:
 
 EB URL: [http://udagram-api-dev.eba-ni96pdmv.us-east-1.elasticbeanstalk.com/](http://udagram-api-dev.eba-ni96pdmv.us-east-1.elasticbeanstalk.com/)
 
-![eb](../screenshots/eb.PNG)
+![eb](../screenshots/eb.png)
 
 ---
 
@@ -26,4 +26,4 @@ EB URL: [http://udagram-api-dev.eba-ni96pdmv.us-east-1.elasticbeanstalk.com/](ht
 
 S3 Bucket URL: [http://my-first-postgres-bucket.s3-website.us-east-2.amazonaws.com/](http://my-first-postgres-bucket.s3-website.us-east-2.amazonaws.com/)
 
-![s3](../screenshots/s3.PNG)
+![s3](../screenshots/S3.png)
