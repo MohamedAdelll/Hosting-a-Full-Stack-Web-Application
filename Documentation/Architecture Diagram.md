@@ -1,6 +1,6 @@
 ## Architecture Diagram
 
-![ARC](Architecture_Diagram.PNG)
+![ARC](Architecture_Diagram.png)
 
 ---
 
